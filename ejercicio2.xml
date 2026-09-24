@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<clinicas> 
+    <clinica estado="abierto">
+    <nombre>Clinica Trujillo</nombre>
+    <direccion>Calle sin numero Nº 32</direccion>
+    <telefono>+34 687546890</telefono>
+            <animales id="">
+                <categorias>
+                <tipo>Perro</tipo>
+                <nombre>Jose Luis</nombre>
+                <especie nombreComun="Perro" nombreCientefico="Canis lupus familiaris"></especie>
+                <añoNacimiento>08/09/2026</añoNacimiento>
+                <categoria>Carlino</categoria>
+                </categorias>
+                <registrado ingresado="si">
+                    <a_cargo_de>
+                    <veterinario>Martin Martin</veterinario>
+                    <fecha_ingreso>23/09/2026</fecha_ingreso>
+                    <fecha_alta>24/09/2026</fecha_alta>
+                    <a_cargo_de>
+                </registrado>
+                <propietario particular="si" protectora="">
+                    <particular>
+                        <dni>46859132F</dni>
+                        <nombre>Antonio </nombre>
+                        <apellidos>Dominguez Velasquez</apellidos>
+                        <direccion>Calle real 234</direccion>
+                        <telefonos>679012345 956214567
+                        </telefonos>
+                    </particular>
+                </propietario>
+            </animales>
+            <animales id="">
+                <categorias>
+                <tipo>Gato</tipo>
+                <nombre>Beerus</nombre>
+                <especie nombreComun="Gato" nombreCientefico="Felis catus"></especie>
+                <añoNacimiento>20/09/2026</añoNacimiento>
+                <categoria>Esfinge</categoria>
+                </categorias>
+                <registrado ingresado="si">
+                    <a_cargo_de>
+                    <veterinario>jose Jose</veterinario>
+                    <fecha_ingreso>20/09/2026</fecha_ingreso>
+                    <fecha_alta></fecha_alta>
+                    <a_cargo_de>
+                </registrado>
+                <propietario particular="" protectora="si">
+                    <protectora>
+                    <cif>7538292741</cif>
+                        <nombre>Protectora Patitas</nombre>
+                        <direccion>calle verdadera 32</direccion>
+                        <telefonos>687813245 966441234
+                        </telefonos>
+                        <responsable>
+                        <nombre>Jose Luis</nombre>
+                        <apellidos>Rodriguez Puente</apellidos>
+                        </responsable>
+                    </protectora>
+                </propietario>
+            </animales>
+            <animales id="">
+                <categorias>
+                <tipo>Mapache</tipo>
+                <nombre>Basura</nombre>
+                <especie nombreComun="Mapache" nombreCientefico="Procyon lotor"></especie>
+                <añoNacimiento>21/09/2026</añoNacimiento>
+                <categoria>Procyonidae</categoria>
+                </categorias>
+                <registrado ingresado="no">
+                </registrado>
+            </animales>
+    <clinica>
+        <clinica estado="cerrado">
+    <nombre>Clinica MIAUUUUUUUUUUUU</nombre>
+    <direccion>Calle con numero Nº 48</direccion>
+    <telefono>+34 698543123</telefono>
+            <animales id="">
+                <categorias>
+                <tipo>Totuga</tipo>
+                <nombre>Jose Luis</nombre>
+                <especie nombreComun="Perro" nombreCientefico="Canis lupus familiaris"></especie>
+                <añoNacimiento>08/09/2026</añoNacimiento>
+                <categoria>Carlino</categoria>
+                </categorias>
+                <registrado ingresado="si">
+                    <a_cargo_de>
+                    <veterinario>Martin Martin</veterinario>
+                    <fecha_ingreso>23/09/2026</fecha_ingreso>
+                    <fecha_alta>24/09/2026</fecha_alta>
+                    <a_cargo_de>
+                </registrado>
+                <propietario particular="si" protectora="">
+                    <particular>
+                        <dni>46859132F</dni>
+                        <nombre>Antonio </nombre>
+                        <apellidos>Dominguez Velasquez</apellidos>
+                        <direccion>Calle real 234</direccion>
+                        <telefonos>679012345 956214567
+                        </telefonos>
+                    </particular>
+                </propietario>
+            </animales>
+            <animales id="">
+                <categorias>
+                <tipo>Gato</tipo>
+                <nombre>Beerus</nombre>
+                <especie nombreComun="Gato" nombreCientefico="Felis catus"></especie>
+                <añoNacimiento>20/09/2026</añoNacimiento>
+                <categoria>Esfinge</categoria>
+                </categorias>
+                <registrado ingresado="si">
+                    <a_cargo_de>
+                    <veterinario>jose Jose</veterinario>
+                    <fecha_ingreso>20/09/2026</fecha_ingreso>
+                    <fecha_alta></fecha_alta>
+                    <a_cargo_de>
+                </registrado>
+                <propietario particular="" protectora="si">
+                    <protectora>
+                    <cif>7538292741</cif>
+                        <nombre>Protectora Patitas</nombre>
+                        <direccion>calle verdadera 32</direccion>
+                        <telefonos>687813245 966441234
+                        </telefonos>
+                        <responsable>
+                        <nombre>Jose Luis</nombre>
+                        <apellidos>Rodriguez Puente</apellidos>
+                        </responsable>
+                    </protectora>
+                </propietario>
+            </animales>
+            <animales id="">
+                <categorias>
+                <tipo>Mapache</tipo>
+                <nombre>Basura</nombre>
+                <especie nombreComun="Mapache" nombreCientefico="Procyon lotor"></especie>
+                <añoNacimiento>21/09/2026</añoNacimiento>
+                <categoria>Procyonidae</categoria>
+                </categorias>
+                <registrado ingresado="no">
+                </registrado>
+            </animales>
+    <clinica>
+</clinicas>

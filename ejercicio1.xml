@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<concesionario id="1" estado="abierto">
+    <nombre>concesionario Paco</nombre>
+    <direccion>Gines</direccion>
+    <telefono>+34 687164567</telefono>
+        <vehiculos>
+                <categorias>
+                    <vehiculo id="x">Seat</vehiculo>
+                        <marca nombreComercial="Seat S.A." PaisOrigen="España"> </marca>
+                        <modelo> ibiza </modelo>
+                        <añofabricacion> 1997 </añofabricacion>
+                            <reservado reservado="si">
+                                <reservadopor empresa="" particular="si">
+                                    <particular>
+                                        <dni>46859132F</dni>
+                                        <nombre>Antonio </nombre>
+                                        <apellidos>Dominguez Velasquez</apellidos>
+                                        <direccion>Calle real 234</direccion>
+                                        <telefonos>679012345 956214567
+                                        </telefonos>
+                                            <personacontacto>
+                                                <nombre>Antonio</nombre>
+                                                <apellido>Dominguez</apellido>
+                                            </personacontacto>
+                                    </particular>
+                                </reservadopor>
+                            </reservado>
+                    </vehiculo>
+                    <vehiculo id="x">Renault</vehiculo>
+                        <marca nombreComercial="Renault S.A." PaisOrigen="Francia"> </marca>
+                        <modelo> Clio </modelo>
+                        <añofabricacion> 2003 </añofabricacion>
+                            <reservado reservado="si">
+                                <reservadopor empresa="si" particular="">
+                                    <empresa>
+                                        <cif>dwghu9gu</cif>
+                                        <razonsocial>necesidad</razonsocial>
+                                        <direccion>calle verdadera 32</direccion>
+                                        <telefonos>687813245 966441234
+                                        </telefonos>
+                                        <fechareserva>23/09/2026</fechareserva>
+                                        <fechaprevistaentrega>29/09/2026</fechaprevistaentrega>
+                                    </empresa>                            
+                </reservado>
+                    </vehiculo>
+                    <vehiculo id="x">Fiat</vehiculo>
+                        <marca nombreComercial="Fiat S.A." PaisOrigen="España"> </marca>
+                        <modelo> Punto </modelo>
+                        <añofabricacion> 2008 </añofabricacion>
+                            <reservado reservado="">
+                                <reservadopor empresa="" particular="">                  
+                </reservado>
+                    <vehiculo>
+                </categorias>           
+        </vehiculos>
+</concesionario>
+
+<concesionario id="2" estado="cerrado">
+    <nombre>concesionario Tornillo</nombre>
+    <direccion>Coria</direccion>
+    <telefono>+34 678145234</telefono>
+        <vehiculos id="x">
+                <categorias>
+                    <vehiculo>Volkswagen</vehiculo>
+                        <marca nombreComercial="Volkswagen S.A." PaisOrigen="Alemania"> </marca>
+                        <modelo> Pasat </modelo>
+                        <añofabricacion> 1997 </añofabricacion>
+                            <reservado reservado="si">
+                                <reservadopor empresa="si" particular="">
+                                    <particular>
+                                        <dni>46823132F</dni>
+                                        <nombre>Jose</nombre>
+                                        <apellidos>Martinez Dominguez</apellidos>
+                                        <direccion>Calle falsa 234</direccion>
+                                        <telefonos>687456234 95566789
+                                        </telefonos>
+                                            <personacontacto>
+                                                <nombre>Jose</nombre>
+                                                <apellido>Martinez</apellido>
+                                            </personacontacto>
+                                        <fechareserva>23/08/2027</fechareserva>
+                                        <fechaprevistaentrega>26/09/2027</fechaprevistaentrega>
+                                    </particular>
+                                            <vehiculos id="x">
+                <categorias>
+                    <vehiculo>Yamaha</vehiculo>
+                        <marca nombreComercial="Yamaha S.A." PaisOrigen="Italia"> </marca>
+                        <modelo> r1 </modelo>
+                        <añofabricacion> 2010 </añofabricacion>
+                            <reservado reservado="no">
+                </reservado>
+                    <vehiculo>
+                </categorias>           
+        </vehiculos>
+</concesionario>
