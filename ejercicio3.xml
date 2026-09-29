@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<videoclubs>
+<videclub>
+<nombre>Videoclub Manolo</nombre>
+<estado estado=abierto>
+<direccion>Calle KLK 3</direccion>
+<telefono>657482143</telefono>
+    <peliculas>
+        <categorias>
+            <terror>
+                <pelicula id="PE123">
+                    <titulo>Dios que mieo</titulo>
+                    <director nombre="Manolito" apellidos="Pies de plata" />
+                    <añoEstreno>2020</añoEstreno>
+                    <alquiler>
+                        <socio>345657</socio>
+                        <fechaAlquiler>29/09/2026</fechaAlquiler>
+                        <fechaDevolucion>01/10/2026</fechaDevolucion>
+                        <cliente tipo="particular">
+                            <dni>45678654C</dni>
+                            <nombre>Joaquin</nombre>
+                            <apellidos>der beti</apellidos>
+                            <direccion>Venito villamari</direccion>
+                            <telefonos>
+                                <telefono>6879341234</telefono>
+                                <telefono>955678234</telefono>
+                            </telefonos>
+                        </cliente>
+                    </alquiler>
+                </pelicula>
+            </terror>            
+            <anime>
+                <pelicula id="PE124">
+                    <titulo>Er tio la vara</titulo>
+                    <director nombre="Jose" apellidos= "Mota"></director>
+                    <añoEstreno>2025<añoEstreno>
+                    <alquiler>
+                        <socio>4567989</socio>
+                        <fechaAlquiler>23/09/2026</fechaAlquiler>
+                        <fechaDevolucion>04/10/2026</fechaDevolucion>
+                        <cliente tipo="empresa">
+                            <cif>45678654C</cif>
+                            <razonSocial>Empresa 123<razonSocial>
+                            <direccion>Poligono el pino 23</direccion>
+                            <telefonos>
+                                <telefono>6879341234</telefono>
+                                <telefono>955678234</telefono>
+                            </telefonos>
+                        </cliente>
+                    </alquiler>
+                </pelicula>
+            </anime>
+            <fantasia>
+            <pelicula id="PE125">
+                    <titulo>Las peripecias de joselito</titulo>
+                    <director nombre="Manuel" apellidos= "Bueno"></director>
+                    <añoEstreno>2026<añoEstreno>
+                    <alquiler tipo="no">
+                    </alquiler>
+                </pelicula>
+            </fantasia>
+        </categorias>
+    </peliculas>
+
+</videoclub>
+
+<videclub>
+<nombre>Videoclub Joselito</nombre>
+<estado estado=cerrado>
+<direccion>Calle Manin 4</direccion>
+<telefono>678351323</telefono>
+    <peliculas>
+        <categorias>
+            <terror>
+                <pelicula id="PE123">
+                    <titulo>Er zusto</titulo>
+                    <director nombre="javier" apellidos="chaves" />
+                    <añoEstreno>2019</añoEstreno>
+                    <alquiler>
+                        <socio>345687</socio>
+                        <fechaAlquiler>04/09/2026</fechaAlquiler>
+                        <fechaDevolucion>09/10/2026</fechaDevolucion>
+                        <cliente tipo="particular">
+                            <dni>45789123C</dni>
+                            <nombre>Konoplyanka</nombre>
+                            <apellidos>Chocoplancha</apellidos>
+                            <direccion>Ramon sanxe perro</direccion>
+                            <telefonos>
+                                <telefono>698765234</telefono>
+                                <telefono>955907654</telefono>
+                            </telefonos>
+                        </cliente>
+                    </alquiler>
+                </pelicula>
+            </terror>            
+            <anime>
+                <pelicula id="PE130">
+                    <titulo>Er tio de los titane</titulo>
+                    <director nombre="Japo" apellidos= "Nes"></director>
+                    <añoEstreno>2000<añoEstreno>
+                </pelicula>
+            </anime>
+        </categorias>
+    </peliculas>
+
+</videoclub>
+<videoclub>
+<estado estado=enReformas>
+<direccion>Calle Manin 4</direccion>
+<telefono>678351323</telefono>
+</videoclub>
+</videoclubs>

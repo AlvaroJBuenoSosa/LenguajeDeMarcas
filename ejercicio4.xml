@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gimnasios>
+    <gimnasio>
+        <nombre>El olimpo</nombre>
+        <estado estado=abierto>
+        <direccion>Trembolona 4</direccion>
+        <telefono>698765345</telefono>
+            <categorias>
+                <categoria>
+                    <maquinas>
+                        <maquina>
+                            <pressBanca id="PB123" nombreComercial="Bench Press" origenPais="EEUU">
+                                <nombre>Press Banca Recto</nombre>
+                                <añoAdquisicion>2023</añoAdquisicion>
+                                <reservado reservado="si"></reservado>
+                                    <reservadoPor por="socio"> 
+                                        <fechaInicio>29/09/2026</fechaInicio>
+                                        <fechaFin>29/09/2026</fechaFin>
+                                            <socio>
+                                                <dni>45999146C</dni>
+                                                <nombre>Álvaro</nombre>
+                                                <apellidos>Bueno Sosa</apellidos>
+                                                <direccion>Nuestra Señora Del Pilar 32</direccion>
+                                                <telefonos>
+                                                    <telefono>687156398</telefono>
+                                                    <telefono>955770553</telefono>
+                                                </telefonos>
+                                            </socio>       
+                                    <reservadoPor>
+                            </pressbanca>
+                        <maquina>
+                        <maquina>
+                            <PressMilitar id="PM123" nombreComercial="Militar Press" origenPais="Germany">
+                                <nombre>Press Hombro Recto</nombre>
+                                <añoAdquisicion>2024</añoAdquisicion>
+                                <reservado reservado="si"></reservado>
+                                    <reservadoPor por="entrenador"> 
+                                        <fechaInicio>24/09/2026</fechaInicio>
+                                        <fechaFin>29/09/2026</fechaFin>
+                                            <entrenador>
+                                                <dni>45999746C</dni>
+                                                <nombre>Israel</nombre>
+                                                <apellidos>Moreno Dominguez</apellidos>
+                                                <direccion>Nuestra Señora Del Carmen 5</direccion>
+                                                <categoria>Entrenador Personal Nuria</categoria>
+                                                <telefonos>
+                                                    <telefono>687654234</telefono>
+                                                    <telefono>955770789</telefono>
+                                                </telefonos>
+                                            </entrenador>       
+                                    <reservadoPor>
+                            </pressbanca>
+                        <maquina>
+                    </maquinas>
+                </categoria>
+            </categorias>
+
+    <gimnasio>
+    <gimnasio>
+        <nombre>El idioma de los dioses</nombre>
+        <estado estado=cerrado>
+        <direccion>Winstrol 6</direccion>
+        <telefono>678909823</telefono>
+            <categorias>
+                <categoria>
+                    <maquinas>
+                        <maquina>
+                            <Dorsal id="LP123" nombreComercial="Lat Pulldown" origenPais="EEUU">
+                                <nombre>Jalon de dorsal</nombre>
+                                <añoAdquisicion>2026</añoAdquisicion>
+                                <reservado reservado="si"></reservado>
+                                    <reservadoPor por="socio"> 
+                                        <fechaInicio>29/09/2026</fechaInicio>
+                                        <fechaFin>29/09/2026</fechaFin>
+                                            <socio>
+                                                <dni>45999146C</dni>
+                                                <nombre>Antonio</nombre>
+                                                <apellidos>Machine</apellidos>
+                                                <direccion>Virgen del Pilar 40</direccion>
+                                                <telefonos>
+                                                    <telefono>698777654</telefono>
+                                                    <telefono>955770589</telefono>
+                                                </telefonos>
+                                            </socio>       
+                                    <reservadoPor>
+                            </pressbanca>
+                        <maquina>
+                        <maquina>
+                            <HackSquad id="HS123" nombreComercial="Hack Squad" origenPais="Italy">
+                                <nombre>Hack Sentadillas</nombre>
+                                <añoAdquisicion>2020</añoAdquisicion>
+                                <reservado reservado="no"></reservado>
+                            </pressbanca>
+                        <maquina>
+                    </maquinas>
+                </categoria>
+            </categorias>
+
+    <gimnasio>
+</gimnasios>

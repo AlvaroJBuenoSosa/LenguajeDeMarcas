@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<hoteles>
+  <hotel>
+    <nombre>Gran Hotel Central</nombre>
+    <direccion>Avenida de la Constitución 45, Sevilla</direccion>
+    <telefonos>
+      <telefono>954123456</telefono>
+    </telefonos>
+    
+    <estado situacion="abierto" />
+
+
+    <categorias_disponibles>
+      <categoria id="CAT-EST">Estándar</categoria>
+      <categoria id="CAT-SUITE">Suite Premium</categoria>
+    </categorias_disponibles>
+
+    <habitaciones>
+
+
+      <habitacion id="HA101" categoria_ref="CAT-EST">
+        <planta numero="1" ala="Norte" />
+        <camas>2</camas>
+        <ano_ultima_reforma>2024</ano_ultima_reforma>
+        
+        <ocupacion estado="ocupada">
+          <ocupada_por tipo_cliente="particular">
+            <documento tipo="DNI">12345678X</documento>
+            <nombre>Carlos</nombre>
+            <apellidos>García Pérez</apellidos>
+            <direccion>Calle Sierpes 12, Sevilla</direccion>
+            <telefonos>
+              <telefono>600123456</telefono>
+              <telefono>600654321</telefono>
+            </telefonos>
+          </ocupada_por>
+          <fecha_entrada>2026-09-25</fecha_entrada>
+          <fecha_salida_prevista>2026-10-02</fecha_salida_prevista>
+        </ocupacion>
+      </habitacion>
+
+      <habitacion id="HA102" categoria_ref="CAT-SUITE">
+        <planta numero="1" ala="Sur" />
+        <camas>1</camas>
+        <ano_ultima_reforma>2025</ano_ultima_reforma>
+      </habitacion>
+    </habitaciones>
+  </hotel>
+
+  <hotel>
+    <nombre>Hotel Playa Relajante</nombre>
+    <direccion>Paseo Marítimo 12, Málaga</direccion>
+    <telefonos>
+      <telefono>952987654</telefono>
+      <telefono>952987655</telefono>
+    </telefonos>
+    
+    <estado situacion="cerrado por temporada" />
+
+    <categorias_disponibles>
+      <categoria id="CAT-IND">Individual</categoria>
+      <categoria id="CAT-FAM">Familiar Sea View</categoria>
+    </categorias_disponibles>
+
+    <habitaciones>
+      <habitacion id="HB204" categoria_ref="CAT-FAM">
+        <planta numero="2" ala="Este" />
+        <camas>4</camas>
+        <ano_ultima_reforma>2023</ano_ultima_reforma>
+        
+        <ocupacion estado="ocupada">
+          <ocupada_por tipo_cliente="agencia">
+            <cif>A1234567B</cif>
+            <nombre>Viajes Transatlánticos S.A.</nombre>
+            <direccion>Gran Vía 8, Madrid</direccion>
+            <telefonos>
+              <telefono>910111213</telefono>
+            </telefonos>
+            <comercial_contacto>
+              <nombre>Elena</nombre>
+              <apellidos>Martínez Soler</apellidos>
+            </comercial_contacto>
+          </ocupada_por>
+          <fecha_entrada>2026-09-28</fecha_entrada>
+          <fecha_salida_prevista>2026-10-05</fecha_salida_prevista>
+        </ocupacion>
+      </habitacion>
+    </habitaciones>
+  </hotel>
+
+</hoteles>
